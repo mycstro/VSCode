@@ -1,0 +1,4 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "chatgpt-helper.model": "gpt-4"
+}
