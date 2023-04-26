@@ -1,7 +1,12 @@
-import time, openpyxl, xlsxwriter, urllib, logging
+import time, openpyxl, xlsxwriter, urllib, logging, requests
 from typing import List, Dict
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.WARNING)
 
@@ -37,7 +42,7 @@ def search_jobs_boards(job_board: str, position: str, salary: int, city_state: s
     # Search for job listings
     with webdriver.Chrome() as driver:
         driver.get(url)
-        time.sleep(5)
+        WebDriverWait(driver, 5)
 
         try:
             # Extract job listings
