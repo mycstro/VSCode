@@ -1,4 +1,7 @@
 
 *.xlsx
+.vscode/*
 scratch
 System Administrator_jobs.xlsx
+Test/*
+scratch2
