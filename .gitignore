@@ -1,7 +1,7 @@
 
 *.xlsx
-.vscode/*
-Projects/Database/*
-Projects/Results/*
-Projects/Scripts/Python/Indeed_Scrapper/OLD.*
+.vscode/**
+Projects/Database/**
+Projects/Results/**
+Projects/Scripts/Python/Indeed_Scrapper/OLD/**
 .gitignore
