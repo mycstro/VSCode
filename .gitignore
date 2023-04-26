@@ -1,6 +1,8 @@
 
 *.xlsx
 .vscode/*
+.vscode/launch.json
+.vscode/settings.json
 .vscode/Scratch/*
 .vscode/Scratch/scratch1
 .vscode/Scratch/scratch2
