@@ -44,3 +44,4 @@ def calculate_distance_google(zipcode: str, job_location: str, api_key: Optional
     except (googlemaps.exceptions.ApiError, IndexError, KeyError):
         return None
 
+
