@@ -1,8 +1,15 @@
 
 *.xlsx
 .vscode/*
-scratch
-System Administrator_jobs.xlsx
-Test/*
+.vscode/Scratch/*
+.vscode/Scratch/scratch1
+.vscode/Scratch/scratch2
 Projects/*
-scratch2
+Projects/Database/*
+Projects/Database/default/*
+Projects/Database/default/default.sqlproj
+Projects/Results/*
+Projects/Results/System Administrator_jobs.xlsx
+Projects/Scripts/Python/Indeed_Scrapper/OLD.*
+Projects/Scripts/Python/Indeed_Scrapper/OLD/job_search.py
+.gitignore
